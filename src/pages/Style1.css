@@ -1,0 +1,25 @@
+.image-container {
+    display: grid; 
+    grid-template-columns:200px 200px 200px 200px  ;         /* Ensures images appear side by side */ /* Centers images horizontally */
+    gap: 20px;              /* Adds spacing between images */
+    padding: 45px;
+}
+
+.image-item {
+    text-align: center;    /* Centers the text below images */
+}
+
+.image-item img {
+    width: 200px;         /* Adjust image width */
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.image-item p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #961515;
+}
+
